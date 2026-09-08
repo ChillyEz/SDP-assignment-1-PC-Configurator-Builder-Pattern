@@ -1,11 +1,11 @@
 public class PC {
-    private String motherboard;
-    private String cpu;
-    private Graphics gpu;
-    private String psu;
-    private String storage;
-    private String ram;
-    private String pcCase;
+    private final  String motherboard;
+    private final  String cpu;
+    private final  Graphics gpu;
+    private final  String psu;
+    private final  String storage;
+    private final  String ram;
+    private final  String pcCase;
 
     public PC(String motherboard, String cpu, Graphics gpu, String psu, String storage, String ram, String pcCase) {
         this.motherboard = motherboard;
