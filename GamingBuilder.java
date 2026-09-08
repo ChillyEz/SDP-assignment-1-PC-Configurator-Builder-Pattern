@@ -1,6 +1,3 @@
-/**
- * gamingBuilder
- */
 public class GamingBuilder implements BuilderPC {
     private String motherboard;
     private String cpu;
@@ -9,6 +6,7 @@ public class GamingBuilder implements BuilderPC {
     private String storage;
     private String ram;
     private String pcCase;
+
 
     @Override
     public BuilderPC buildMotherboard(String motherboard) {
@@ -55,6 +53,5 @@ public class GamingBuilder implements BuilderPC {
     public PC build() {
         return new PC(motherboard, cpu, gpu, psu, storage, ram, pcCase);
     }
-
 
 }

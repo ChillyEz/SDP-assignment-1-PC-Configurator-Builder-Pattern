@@ -1,12 +1,9 @@
-
 import java.util.Scanner;
-
-
 
 public class Main {
     public static void main(String[] args){
-        //
-
+        
+        //CLI for Client
         System.out.println("Choose your PC type: Gaming or Office");
         System.out.println("Write 'gaming' for Gaming PC or 'office' for Office PC");
         Scanner scanner = new Scanner(System.in);

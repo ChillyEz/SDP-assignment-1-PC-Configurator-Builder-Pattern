@@ -1,5 +1,3 @@
-
-
 public class OfficeBuilder  implements BuilderPC {
     private String motherboard;
     private String cpu;

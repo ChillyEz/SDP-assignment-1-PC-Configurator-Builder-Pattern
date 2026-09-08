@@ -5,6 +5,7 @@ public class Director {
         this.builder = builder;
     }
 
+    // OFFICE PC--------------------
     public PC constructOfficePC() {
         return builder
                 .buildMotherboard("MSI")
@@ -16,6 +17,7 @@ public class Director {
                 .buildCase("Fractal Design Define 7").build();
     }
 
+    // GAMING PC--------------------
     public PC constructGamingPC() {
         return builder
                 .buildMotherboard("ASUS ROG Strix")
